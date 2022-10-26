@@ -1,4 +1,3 @@
-package gui;
 import java.awt.Color;
 import java.awt.event.*;
 import javax.swing.*;
@@ -11,12 +10,10 @@ public class miles implements ActionListener{
     {
        
         l1=new JLabel("MILES:");
-        l1.setForeground(Color.red);
         l1.setBounds(50,50,50,200);
         t1=new JTextField();
         t1.setBounds(200,140,150,30);
         l2=new JLabel("KILOMETER:");
-        l2.setForeground(Color.BLACK);
         l2.setBounds(50,100,150,300);
         t2=new JTextField();
         t2.setBounds(200,230,150,30);
